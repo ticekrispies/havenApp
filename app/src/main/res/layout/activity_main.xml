@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@colors/background"
+    android:backgroundTint="#F6F6F6"
     tools:context=".MainActivity">
 
     <ImageView
@@ -16,7 +16,7 @@
         android:contentDescription="@string/haven_logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/haven" />
+        app:srcCompat="@drawable/haven"/>
 
     <TextView
         android:id="@+id/textView"
@@ -38,7 +38,9 @@
         android:layout_marginTop="39dp"
         android:backgroundTint="#676262"
         android:text="@string/get_started"
+        android:onClick="getStartedAction"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="UsingOnClickInXml" />
 </androidx.constraintlayout.widget.ConstraintLayout>

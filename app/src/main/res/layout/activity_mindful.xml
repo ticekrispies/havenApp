@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#F6F6F6"
     tools:context=".mindful">
 
     <Button
@@ -14,6 +15,7 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#676262"
         android:text="@string/back"
+        android:onClick="goBackMindful"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

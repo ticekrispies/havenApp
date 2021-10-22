@@ -13,4 +13,5 @@
     <string name="search">Search quotes DB</string>
     <string name="video">Random video</string>
     <string name="back">Back</string>
+    <string name="mediaFiller">This will be a ScrollView list with content to choose from.</string>
 </resources>

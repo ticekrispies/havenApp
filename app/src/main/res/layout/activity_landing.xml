@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#F6F6F6"
     tools:context=".landing">
 
     <Button
@@ -13,6 +14,7 @@
         android:layout_marginStart="105dp"
         android:backgroundTint="#676262"
         android:text="@string/mindful"
+        android:onClick="openMindful"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
@@ -25,6 +27,7 @@
         android:layout_marginTop="46dp"
         android:backgroundTint="#676262"
         android:text="@string/personality"
+        android:onClick="openPersonality"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -36,6 +39,7 @@
         android:layout_marginStart="105dp"
         android:backgroundTint="#676262"
         android:text="@string/media"
+        android:onClick="openMedia"
         app:iconTint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
@@ -51,14 +55,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/haven" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#676262"
-        android:text="@string/back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
