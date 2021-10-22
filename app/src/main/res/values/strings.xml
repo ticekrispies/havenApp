@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Haven</string>
+    <string name="haven_logo">Haven letter logo</string>
+    <string name="get_started">Get Started</string>
+    <string name="home_Quote">"The more ideas that you give away, the more ideas that will come to you."</string>
+    <string name="personality">Your personality</string>
+    <string name="mindful">Empower your mind</string>
+    <string name="media">Helpful media</string>
+    <string name="persText">To discover the personality type that fits you most, take the a test by pressing the button below. Alternatively, you can press ‘More info’ to read up on the different personality types and their descriptions.</string>
+    <string name="startTest">Start personality test</string>
+    <string name="testInfo">More info</string>
+    <string name="inspire">Tell me something inspiring!</string>
+    <string name="search">Search quotes DB</string>
+    <string name="video">Random video</string>
+    <string name="back">Back</string>
+</resources>
